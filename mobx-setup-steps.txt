@@ -1,0 +1,41 @@
+keywords:
+store
+decorators
+observables
+computed
+actions
+reactions
+observer
+
+
+#SETUP
+
+#React.js + TypeScript + Mobx
+sudo npm i create-react-app
+npx create-react-app my-app --typescript
+sudo npm i mobx mobx-react mobx-react-router axios react-router-dom jwt-decode
+sudo npm i @types/react-router-dom @types/axios @types/jwt-decode
+sudo npm i @types/node
+sudo npm i @types/react
+sudo npm i -D mobx-react-devtools
+sudo npm i bootstrap font-awesome
+import "bootstrap/dist/css/bootstrap.css";
+import "font-awesome/css/font-awesome.css";
+
+import DevTools from 'mobx-react-devtools'
+
+const App = () => (
+  <div>
+    ...
+    <DevTools />
+  </div>
+)
+    "target": "es6",
+    "experimentalDecorators": true,
+sudo npm i node-sass
+
+
+#STEPS
+1. Create a store
+2. Create a provider
+
